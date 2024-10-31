@@ -1,7 +1,7 @@
 
 const HeaderComponens = () => {
   return (
-    <div>HeaderComponens</div>
+    <div><img src="../assets/widiloggo.png" alt="gambar tidak di temukan" /></div>
   )
 }
 
