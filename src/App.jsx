@@ -8,6 +8,7 @@ import PortofolioComponen from './Componens/PortofolioComponen'
 import ContakComponen from './Componens/ContakComponen'
 import FooterComponen from './Componens/FooterComponen'
 import "./css/main.css"
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return <div>

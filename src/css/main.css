@@ -6,3 +6,38 @@
 .nav-hover:hover {
      background-color: red; 
 }
+
+.header-container {
+    background-color: #000; /* atau rgb(30, 30, 30) untuk hitam abu-abu */
+    color: #fff; /* Warna putih untuk teks */
+    padding: 2rem;
+}
+  
+.profile-image {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 30%;
+}
+
+.text-light h2 {
+    color: red;
+    font-size: 65px;
+    font-family: 'Allura', cursive;
+}
+
+  
+.social-icons a {
+    margin: 0 10px; color: #ffffff; /* Warna putih terang */ 
+    font-size: 24px;
+    text-decoration: none; 
+}
+
+.social-icons a i {
+    color: #ffffff; /* Warna putih terang untuk ikon */ 
+}
+
+.social-icons a:hover i { 
+    color: red; /* Mengubah warna menjadi merah saat di-hover */ 
+}
+  
+  
