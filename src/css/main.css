@@ -45,9 +45,6 @@
 }
 
 /* about */
-/* styles.css */
-/* styles.css */
-/* styles.css */
 .outer-container { 
   background-color: rgb(30, 30, 30);
 }
@@ -119,4 +116,29 @@
   .text-light  i:hover {
     color: #ff0000;
   }
-  
+
+  /* projek */
+  .container-projek {
+    background-color: rgb(30, 30, 30);
+  }
+
+  .projek-dalam h2 {
+    color: #fff;
+  }
+
+  .card { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .projek-dalam .card-body .card-title {
+    color: #ff0000;
+    font-weight: bold;
+  }
+
+  .projek-dalam .card-text {
+    color: #fff;
+  }
