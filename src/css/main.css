@@ -3,12 +3,16 @@
     color: rgb(30, 30, 30);
 }
 
+/* div {
+  background-color: #000; 
+} */
+
 .nav-hover:hover {
      background-color: red; 
 }
 
 .header-container {
-    background-color: #000; /* atau rgb(30, 30, 30) untuk hitam abu-abu */
+    background-color: rgb(30, 30, 30); /* atau rgb(30, 30, 30) untuk hitam abu-abu */
     color: #fff; /* Warna putih untuk teks */
     padding: 2rem;
 }
@@ -39,5 +43,80 @@
 .social-icons a:hover i { 
     color: red; /* Mengubah warna menjadi merah saat di-hover */ 
 }
+
+/* about */
+/* styles.css */
+/* styles.css */
+/* styles.css */
+.outer-container { 
+  background-color: rgb(30, 30, 30);
+}
+
+.about-container {
+    background-color: rgb(30, 30, 30);
+    padding: 2rem;
+    border-radius: 5px;
+  }
   
+  .about-container h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .about-container h4 {
+    font-family: 'Allura', cursive;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+
+  .about-container h5 {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .about-container p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .technologies-icons > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    font-size: 30px;
+  }
+  
+  /* Warna untuk setiap nth-child */
+  .technologies-icons > div:nth-child(1) i {
+    color: #e34f26; /* HTML */
+  }
+  
+  .technologies-icons > div:nth-child(2) i {
+    color: #264de4; /* CSS */
+  }
+  
+  .technologies-icons > div:nth-child(3) i {
+    color: #f7df1e; /* JavaScript */
+  }
+  
+  .technologies-icons > div:nth-child(4) i {
+    color: #777bb4; /* PHP */
+  }
+  
+  
+  .profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .text-light  i {
+    color: #fff;
+  }
+  .text-light  i:hover {
+    color: #ff0000;
+  }
   
