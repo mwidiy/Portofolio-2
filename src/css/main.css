@@ -6,10 +6,19 @@
 /* div {
   background-color: #000; 
 } */
+.nav-hover.active {
+  color: red !important;
+}
+
+.nav-hover.active:hover{
+  color: black !important;
+}
 
 .nav-hover:hover {
-     background-color: red; 
+     background-color: red;
+     color: #000000; 
 }
+
 
 .header-container {
     background-color: rgb(30, 30, 30); /* atau rgb(30, 30, 30) untuk hitam abu-abu */
@@ -142,6 +151,7 @@
   .projek-dalam .card-text {
     color: #fff;
   }
+  
 
   /* portofolio */
 .portofoliokk {
@@ -193,9 +203,6 @@
   transition: color 0.3s ease;
 }
 
-.contact-container .btn-primary:hover {
-  background-color: rgb(200, 0, 0);
-}
 
 .contact-container .form-grup {
   background-color: blue;
@@ -217,6 +224,26 @@
   margin: 10px 30px;
   text-decoration: none;
 }
+
+/* footer */
+/* styles.css */
+.footer {
+  background-color: #ff0000; /* Background hitam */
+}
+
+.footer h5 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer p {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+/* durasi animasi */
+.animate__animated.animate__slideInDown.smooth-slide { --animate-duration: 3s; /* Duration */ }
 
 
 
