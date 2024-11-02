@@ -142,3 +142,29 @@
   .projek-dalam .card-text {
     color: #fff;
   }
+
+  /* portofolio */
+.portofoliokk {
+  /* padding: 2rem; */
+  background-color: rgb(30, 30, 30); /* Warna background */
+  color: #fff; /* Warna teks */
+}
+
+.portfolio-container {
+  /* padding: 1rem; */
+  border-radius: 5px;
+  width: 100%;
+}
+
+.portfolio-container .text-porto {
+  color: rgb(255, 255, 255);
+}
+
+.portfolio-container .text-center .card-title{
+  color: red;
+  font-weight: bold;
+}
+
+
+
+  
